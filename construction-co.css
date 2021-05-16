@@ -370,7 +370,7 @@
 
 .content{
     /* margin: 20px,0,0,0,; */
-    background-image: url("背景白_After.png");
+    background-image: url("background-ivory.png");
     /* position: relative; */
     /* right: 20px; */
 }
@@ -433,7 +433,7 @@
     align-items: center;
 }
 
-.details-box{
+.roadconstruction-box{
     padding: 0.5em;
     width: 300px;
     background: #ffffff;
@@ -444,7 +444,7 @@
     margin: 0 20px 0 0 ;
 }
 
-.details-picture{
+.roadconstruction-picture{
     width: 400px;
     height: 280px;
     border-radius: 10px;
@@ -484,7 +484,7 @@
     height: 200px;
 }
 
-.city-picture{
+.cityplanning-picture{
     width: 450px;
     height: 200px;
     position: relative;
