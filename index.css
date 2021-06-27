@@ -7,10 +7,6 @@
     margin-left : auto;
 }
 
-/* .all{
-    width: 100%;
-} */
-
 .line1{
     width: 32px;
     height: 3px;
@@ -18,6 +14,7 @@
     margin: 10px;
     position: absolute;
     right: 0px;
+    top: 7px;
 }
 
 .line2{
@@ -27,7 +24,7 @@
     margin: 10px;
     position: absolute;
     right: 0px;
-    top: 10px;
+    top: 17px;
 }
 
 .line3{
@@ -37,7 +34,7 @@
     margin: 10px;
     position: absolute;
     right: 0px;
-    top: 20px;
+    top: 27px;
 }
 
 @media (min-width: 740px){
@@ -102,6 +99,8 @@
     .logo2 {
         width: 40px;
         height: 40px;
+        padding-left: 3px;
+        padding-top: 6px;
     }
 }
 
@@ -114,6 +113,8 @@
 @media (max-width: 740px){
     .name2 {
         font-size: 23px;
+        padding-left: 5px;
+        padding-top: 9px;
     }
 }
 
@@ -184,6 +185,11 @@
     left: 60%;
 }
 
+.ham-home a{
+    text-decoration: none;
+    color: black;
+}
+
 .ham-news {
     text-align:center;
     padding: 0.5em; /*余白*/
@@ -196,6 +202,11 @@
     position: absolute;
     top: 125px;
     left: 60%;
+}
+
+.ham-news a{
+    text-decoration: none;
+    color: black;
 }
 
 .ham-company{
@@ -212,6 +223,11 @@
     left: 60%;
 }
 
+.ham-company a{
+    text-decoration: none;
+    color: black;
+}
+
 .ham-business{
     text-align:center;
     padding: 0.5em; /*余白*/
@@ -224,6 +240,13 @@
     position: absolute;
     top: 312px;
     left: 60%;
+    text-decoration: none;
+    color: black;
+}
+
+.ham-business a{
+    text-decoration: none;
+    color: black;
 }
 
 .ham-recruit{
@@ -238,6 +261,13 @@
     position: absolute;
     top: 410px;
     left: 60%;
+    text-decoration: none;
+    color: black;
+}
+
+.ham-recruit a{
+    text-decoration: none;
+    color: black;
 }
 
 .top-picture-set {
@@ -257,6 +287,19 @@
     font-size: 40px;
     }
 
+@media (max-width: 1000px){
+    .top-picture-set p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 740px){
+    .top-picture-set p {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+}
+
 @media (min-width: 740px){
     .top-picture-set img {
         width: 100%;
@@ -269,7 +312,7 @@
     .top-picture-set img {
         width: 100%;
         position: relative;
-        bottom: 0px;
+        top: 10px;
     }
 }
 
@@ -277,6 +320,12 @@
     text-align: center;
 }
 
+@media (max-width: 1000px){
+    .menu {
+        font-size: 13px;
+    }
+}
+
 @media (min-width: 740px){
     .home {
         position: absolute;
@@ -288,9 +337,8 @@
 @media (max-width: 740px){
     .home {
         position: absolute;
-        top: 10%;
-        left: 49%;
-        font-size: 13px;
+        top: 20%;
+        left: 47%;
     }
 }
 
@@ -305,9 +353,8 @@
 @media (max-width: 740px){
     .news {
         position: absolute;
-        top: 10%;
-        left: 57%;
-        font-size: 13px;
+        top: 20%;
+        left: 55%;
     }
 }
 
@@ -322,9 +369,8 @@
 @media (max-width: 740px){
     .company {
         position: absolute;
-        top: 10%;
-        left: 65%;
-        font-size: 13px;
+        top: 20%;
+        left: 64%;
     }
 }
 
@@ -339,9 +385,8 @@
 @media (max-width: 740px){
     .business {
         position: absolute;
-        top: 10%;
-        left: 75%;
-        font-size: 13px;
+        top: 20%;
+        left: 76%;
     }
 }
 
@@ -356,9 +401,8 @@
 @media (max-width: 740px){
     .recruit {
         position: absolute;
-        top: 10%;
-        left: 85%;
-        font-size: 13px;
+        top: 20%;
+        left: 87%;
     }
 }
 
@@ -424,13 +468,19 @@
     color: #fff;
     width: 210px;
     border-radius: 10px;
-    margin: 200px 0 20px 50px;
+    margin: 200px 0 50px 50px;
 }
 
 .details2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 850px) {
+    .details2 {
+    display:initial
+    }
 }
 
 .roadconstruction-box{
@@ -444,15 +494,37 @@
     margin: 0 20px 0 0 ;
 }
 
+@media (max-width: 850px) {
+    .roadconstruction-box {
+    margin-left: 50px;
+    }
+}
+
 .roadconstruction-picture{
     width: 400px;
     height: 280px;
     border-radius: 10px;
 }
 
+@media (max-width: 850px) {
+    .roadconstruction-picture {
+    margin-top: 30px;
+    position: relative;
+    left: 100px;
+    }
+}
+
 .business-details{
+    padding-top: 15px;
     position: absolute;
     right: 150px;
+}
+
+@media (max-width: 850px) {
+    .business-details {
+    position: absolute;
+    right: 60px;
+    }
 }
 
 .business-details span{
