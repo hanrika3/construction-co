@@ -443,6 +443,12 @@
     padding: 23px;
 }
 
+@media (max-width: 375px){
+    .news-box {
+        word-wrap: break-word;
+    }
+}
+
 .news2{
     padding: 23px;
 }
